@@ -1,0 +1,35 @@
+body {
+  background-color: lightslategray;
+}
+
+.newpost {
+  text-align: center;
+}
+
+.input-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  outline-color: lightslategray;
+  border: 0;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+#desc {
+  width: 60%;
+  margin: auto;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 2px 5px;
+
+  background-color: lightslategray;
+}
